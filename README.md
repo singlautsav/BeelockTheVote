@@ -9,3 +9,7 @@ Open postman to see the Result (/getResult)
 Open postman to see the blockchain (/getChain)
 
 and many more such features 
+
+![](https://github.com/singlautsav/BeelockTheVote/blob/master/Examples/add_transaction.png?raw=true)
+![](https://github.com/singlautsav/BeelockTheVote/blob/master/Examples/getResult.png?raw=true)
+![](https://github.com/singlautsav/BeelockTheVote/blob/master/Examples/get_chain.png?raw=true)
