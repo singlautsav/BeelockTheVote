@@ -159,7 +159,7 @@ def is_valid():
 
 
 # Adding a new transaction to the Blockchain
-@app.route('/add_transaction', methods=['POST'])
+@app.route('/caste_vote', methods=['POST'])
 def add_transaction():
     json = request.get_json()
     transaction_keys = ['voter', 'candidate']
