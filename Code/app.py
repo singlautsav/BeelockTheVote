@@ -108,6 +108,14 @@ class Blockchain:
 
     def getResult(self):
         return self.__countVote
+    
+    def blockStatus(self):
+        if len(self.chain) == 0:
+            return "Blockchain is empty"
+        elif lem(self.chain == 1):
+            return "Blockchain contains only the genesis block"
+        else:
+            return "Blockchain is out of the genesis block"
 
 # Part 2 - Mining our Blockchain
 
